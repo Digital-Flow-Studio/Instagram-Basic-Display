@@ -1,6 +1,6 @@
 <?php
 
-$request_url ="https://graph.instagram.com/17841400506687706/media?fields=id,caption,media_type,media_url,username,timestamp&access_token=IGQVJXcnF1Q1pHcHlkTkZAlZAkpaWDVmT2NzRHBxZAGF4eE9lZA1RVNWhUSmdtdVU3WmQxZA25jTnhWNUJfS0lnczdhMmllQmYtTWVaMmpfZAVlpT1lvSm42TmlfTTNBMHE5a1NNV1ROYU5R";
+$request_url ="https://graph.instagram.com/17841400506687706/media?fields=id,caption,media_type,media_url,username,timestamp&access_token=IGQVJYRVFjYm02X2Vyd2FCQlVGenRFWWI3d09WaldkS19PVVB6eXQ3bjE1NWtaZAHl5dnZA3UURrbFRqTlVlSFBEaGloa2NXTU9FNl9kMHpJZAURrcms0cE1IZAFhuaXNreUdMR0ZA1Wkpn";
 $requests = file_get_contents($request_url);
 
 $insta_response = json_decode($requests);
